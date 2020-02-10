@@ -11645,6 +11645,12 @@ figure figcaption {
     padding: 25px;
 }
 
+.columnlan {
+    float: left;
+    width: 20%;
+    padding: 25px;
+}
+
 
 .row::after {
     content: "";
