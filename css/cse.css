@@ -7,8 +7,8 @@
 
 :root {
     --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
+    --indigo: #ff970d;
+    --purple: #ff970d;
     --pink: #e83e8c;
     --red: #dc3545;
     --orange: #fd7e14;
@@ -19,7 +19,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #6f42c1;
+    --primary: #ff970d;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -2664,8 +2664,8 @@ select.form-control-lg:not([size]):not([multiple]) {
 .btn.focus,
 .btn:focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25)
+    -webkit-box-shadow: #ff970d;
+    box-shadow: #ff970d
 }
 
 .btn.disabled,
@@ -2689,42 +2689,42 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #6f42c1;
-    border-color: #6f42c1
+    background-color: #ff970d;
+    border-color: #ff970d
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #5e37a6;
-    border-color: #59339d
+    background-color: #ff970d;
+    border-color: #ff970d
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5)
+    -webkit-box-shadow: #ff970d);
+    box-shadow: #ff970d
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #6f42c1;
-    border-color: #6f42c1
+    background-color: #ff970d;
+    border-color: #ff970d
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #59339d;
-    border-color: #533093
+    background-color: #ff970d;
+    border-color: #ff970d
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5)
+    -webkit-box-shadow: #ff970d;
+    box-shadow: #ff970d
 }
 
 .btn-secondary {
@@ -6677,7 +6677,7 @@ a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-    background-color: #59339d!important
+    background-color: #ff970d!important
 }
 
 .bg-secondary {
@@ -9577,12 +9577,12 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #6f42c1!important
+    color: #ff970d!important
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #59339d!important
+    color: #ff970d!important
 }
 
 .text-secondary {
@@ -9826,7 +9826,8 @@ textarea.form-control {
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .2em;
-    font-weight: 900
+    font-weight: 900;
+    color: #ff970d;
 }
 
 .btn.btn-primary {
@@ -9837,8 +9838,8 @@ textarea.form-control {
 .btn.btn-primary:active,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-    border-color: #8c68ce;
-    background: #8c68ce
+    border-color: #ff970d;
+    background: #ff970d
 }
 
 .btn-group-sm>.btn,
@@ -9848,7 +9849,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
     border-width: 2px;
-    color: #6f42c1
+    color: #ff970d
 }
 
 .btn.btn-outline-primary:active,
@@ -10130,7 +10131,7 @@ header .search-form .form-control:-moz-placeholder {
 
 .custom-icon {
     font-size: 70px;
-    color: #6f42c1
+    color: #ff970d
 }
 
 .home-slider {
@@ -10393,7 +10394,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .slider-item .slider-text p a {
-    color: #6f42c1;
+    color: #ff970d;
     text-decoration: underline
 }
 
